@@ -1,5 +1,14 @@
 # DockerFun
 
+## Synaposis
+A simple demonstration of the power of docker, a container
+system that allows for the creation of specified development 
+environments (amongst other great powers!).  This demo builds
+an Ubuntu 18.04 environment for developing c applications that
+need the LAPACKE library, a c wrapper for the world famous
+LAPACK library(Fortran workhorse).
+
+## Running the experiment
 a brief exploration of docker:
 
 	1st: clone repo
