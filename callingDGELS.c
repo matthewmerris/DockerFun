@@ -1,4 +1,5 @@
 /* Calling DGELS using row-major order */
+/* code provided by: http://www.netlib.org/lapack/lapacke.html */
 
 #include <stdio.h>
 #include <lapacke.h>

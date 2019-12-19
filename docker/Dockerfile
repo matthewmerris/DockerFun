@@ -14,3 +14,6 @@ RUN apt-get install -y libopenblas-base
 RUN apt-get install -y libopenblas-dev 
 RUN apt-get install -y liblapacke-dev 
 RUN apt-get install -y liblapack-dev
+RUN apt-get install -y git
+RUN git clone https://github.com/vT3k/DockerFun.git
+RUN gcc ./DockerFun/callingDGELS.c -o callingDGELS -llapacke && ./callingDGELS
